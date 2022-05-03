@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundlayout"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnBlackList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/borderhairstyle"
+            android:padding="20dp"
+            android:text="Danh sách đen"
+            android:textColor="@color/dark_orange"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnDoneList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnBlackList"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/borderhairstyle"
+            android:padding="20dp"
+            android:text="Đã Hoàn thành"
+            android:textColor="@color/dark_orange"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundlayout"
+    android:layout_marginBottom="50dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textTen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Vui lòng nhập họ và tên"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+        <EditText
+            android:id="@+id/etxtName"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textTen"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:hint="Nhập tên"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textngay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:text="Vui lòng chọn ngày"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/etxtDate"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textngay"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:textStyle="bold"
+            android:hint="Chọn ngày"
+            android:textAlignment="center"
+            android:textColor="@color/dark_orange"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etxtDate"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:text="Vui lòng chọn giờ"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+    </RelativeLayout>
+        <GridView
+            android:scrollbars="vertical"
+            android:background="@drawable/borderhairstyle"
+            android:layout_marginTop="10dp"
+            android:id="@+id/gvTime"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:numColumns="3"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btnDatLich"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/border"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Đặt lịch"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+    </RelativeLayout>
+</LinearLayout>

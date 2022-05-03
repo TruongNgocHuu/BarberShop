@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/txtPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số điện thoại"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/txtDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ngày đặt"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/txtTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giờ đặt"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/dark_brown" />
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/drawable-v24/border_time.xml" value="0.2703125" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/drawable-v24/borderhairstyle.xml" value="0.2703125" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/drawable/backgroundlayout.xml" value="0.2703125" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/drawable/bookingicon.xml" value="0.23854166666666668" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/drawable/border.xml" value="0.2703125" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/drawable/border_icon_menu.xml" value="0.2703125" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/drawable/colorIconMenu.xml" value="0.2703125" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/drawable/ic_accept.xml" value="0.2703125" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/drawable/ic_booking.xml" value="0.2703125" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/drawable/ic_checkbook.xml" value="0.2703125" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/drawable/ic_date.xml" value="0.2703125" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/drawable/ic_feedback.xml" value="0.2703125" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/drawable/ic_hairstyle.xml" value="0.2546875" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/drawable/ic_logout.xml" value="0.2703125" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/drawable/ic_refuse.xml" value="0.2703125" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/layout/activity_about.xml" value="0.23854166666666668" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/layout/activity_black_list.xml" value="0.23854166666666668" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/layout/activity_booking.xml" value="0.264" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/layout/activity_done.xml" value="0.23854166666666668" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/layout/activity_hair_style.xml" value="0.25416666666666665" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/layout/activity_maps.xml" value="0.23854166666666668" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/layout/activity_otp.xml" value="0.25416666666666665" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/layout/activity_prices.xml" value="0.23854166666666668" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/layout/activity_signin.xml" value="0.25416666666666665" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/layout/booking_fragment_layout.xml" value="0.264" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/layout/custom_done_list_layout.xml" value="0.23854166666666668" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/layout/custom_layout_time.xml" value="0.25416666666666665" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/layout/custom_listview.xml" value="0.25416666666666665" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/layout/custom_oder_list_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/layout/fragment_booking_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/layout/fragment_manage.xml" value="0.23854166666666668" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/layout/fragment_oderlist.xml" value="0.2328125" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/layout/map.xml" value="0.23854166666666668" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/layout/menu_service.xml" value="0.264" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/layout/slider_layout.xml" value="0.23854166666666668" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/menu/bottom_navigation_bar.xml" value="0.25416666666666665" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2546875" />
+        <entry key="..\:/HocTap/Development Android/BarberShop/BarberShopProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2703125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

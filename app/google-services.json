@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "283312409521",
+    "project_id": "barbershopapp-344302",
+    "storage_bucket": "barbershopapp-344302.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283312409521:android:bc616fc6d24b11effbcb90",
+        "android_client_info": {
+          "package_name": "com.huutocdai.barbershopapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283312409521-ikebigia3smq2uv07amm21g3val234gt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.huutocdai.barbershopapp",
+            "certificate_hash": "7f50c1d86a90d0b031df3a08453664746b30e779"
+          }
+        },
+        {
+          "client_id": "283312409521-knbmts9eltpbnpo223r2m3ott5e2lo8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1rQVHHNlxYgwQxhNkPp4IRAKuMBCJTvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283312409521-knbmts9eltpbnpo223r2m3ott5e2lo8o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

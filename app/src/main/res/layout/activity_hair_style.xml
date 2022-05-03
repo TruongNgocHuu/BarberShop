@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HairStyle">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/backgroundlayout">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/borderhairstyle">
+            <TextView
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kiểu HongKong"
+                android:textColor="@color/dark_orange"
+                android:textSize="30dp"
+                android:fontFamily="monospace"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcHongKong"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:background="@drawable/borderhairstyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:text="Kiểu Châu Âu"
+                android:textColor="@color/orange"
+                android:textSize="30dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal"
+                android:id="@+id/rcEU"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:background="@drawable/borderhairstyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:text="Kiểu Hàn Quốc"
+                android:textColor="@color/orange"
+                android:textSize="30dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal"
+                android:id="@+id/rcKorea"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

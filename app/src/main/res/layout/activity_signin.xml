@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signin"
+    android:background="@drawable/backgroundlayout">
+
+    <LinearLayout
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="15dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Đăng Ký"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="70px"
+            android:textStyle="bold" />
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="50px"-->
+<!--            android:text="Chọn quốc gia"-->
+<!--            android:textStyle="bold"/>-->
+<!--        <com.hbb20.CountryCodePicker-->
+<!--            android:id="@+id/ccp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@color/white"-->
+<!--            app:ccpDialog_textColor="@color/white"/>-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Số điện thoại"
+            android:textColor="@color/white"
+            android:textSize="50px"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etxtPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:hint="Nhập số điện thoại"
+            android:inputType="textPersonName"
+            android:textSize="30dp"
+            android:textAlignment="center"/>
+        <Button
+            android:id="@+id/btnSignin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/borderhairstyle"
+            android:text="Đăng ký"
+            android:textColor="@color/dark_orange"
+            android:textSize="50px" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuService"
+    android:background="@drawable/backgroundlayout"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layouthead"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical">
+        <com.smarteist.autoimageslider.SliderView
+            android:id="@+id/image_slider"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            app:sliderAnimationDuration="1000"
+            app:sliderAutoCycleDirection="back_and_forth"
+            app:sliderIndicatorAnimationDuration="1000"
+            app:sliderIndicatorEnabled="true"
+            app:sliderIndicatorGravity="center_horizontal|bottom"
+            app:sliderIndicatorMargin="15dp"
+            app:sliderIndicatorOrientation="horizontal"
+            app:sliderIndicatorPadding="3dp"
+            app:sliderIndicatorRadius="2dp"
+            app:sliderIndicatorSelectedColor="#5A5A5A"
+            app:sliderIndicatorUnselectedColor="#FFF"
+            app:sliderScrollTimeInSec="3"
+            app:sliderStartAutoCycle="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnBooking"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/border_icon_menu"
+                android:drawableTop="@drawable/bookingicon"
+                android:onClick="Booking"
+                android:paddingTop="40dp"
+                android:text="Đặt lịch"
+                android:textAllCaps="false"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnHairSytle"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/border_icon_menu"
+                android:drawableTop="@drawable/ic_hairstyle"
+                android:onClick="btnHairStyle"
+                android:paddingTop="30dp"
+                android:text="Kiểu tóc"
+                android:textAllCaps="false"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnMap"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/btnBooking"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/border_icon_menu"
+                android:drawableTop="@drawable/ic_map_radi"
+                android:onClick="btnMap"
+                android:paddingTop="40dp"
+                android:text="Đường đi"
+                android:textAllCaps="false"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnPrice"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/btnHairSytle"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/border_icon_menu"
+                android:drawableTop="@drawable/ic_cash"
+                android:onClick="btnPrice"
+                android:paddingTop="30dp"
+                android:text="Bảng giá"
+                android:textAllCaps="false"
+                android:textSize="20dp" />
+
+            <Button
+                android:onClick="btnAbout"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/btnMap"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/border_icon_menu"
+                android:drawableTop="@drawable/ic_about"
+                android:paddingTop="40dp"
+                android:text="Thông tin"
+                android:textAllCaps="false"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/btnPrice"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/border_icon_menu"
+                android:drawableTop="@drawable/ic_logout"
+                android:onClick="btnLogout"
+                android:paddingTop="30dp"
+                android:text="Đăng xuất"
+                android:textAllCaps="false"
+                android:textSize="25dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
